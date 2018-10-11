@@ -1,0 +1,39 @@
+fieldset {
+  overflow: hidden
+}
+
+legend, button {
+    display: inline-block;
+  	vertical-align: middle;
+  	margin: 10px 0;
+}
+
+.checkbox {
+  float: left;
+  clear: none;
+}
+
+label {
+	float: left;
+    clear: none;
+    margin: 2px 0 0 0;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 5px 10px 0 5px;
+}
+
+.comment-box {
+  float: left;
+  clear: none;
+}
+
+
+p.question { display: inline-block; }
+.button-wrapper {
+	display: inline-block;
+	margin-left: .5em;
+}

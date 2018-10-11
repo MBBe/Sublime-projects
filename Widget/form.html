@@ -1,0 +1,104 @@
+<!--radio button -->
+<!--select tag -->
+<!--textarea tag -->
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Inputs</title>
+</head>
+<body>
+
+<p>Has the image viewer helped in making an infomed decision? </p>
+
+<form>
+	<label for="dogs">Dogs: </label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<label for="cats">Cats:</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+	<p>What's your current mood?</p>
+
+	<select name="mood">
+		<option value="Happy">:)</option>
+		<option value="neutral">:#</option>
+		<option value="sad">:(</option>
+	</select>
+
+	<input name="input" type="text">
+	<textarea name="paragraph" rows="10" cols="10"></textarea>
+
+	<button>Go!</button>
+</form>
+</body>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+
+	<div>
+	<aside class="row">
+    <div class="">
+        <div class="details-wrapper">
+            <h2 class="section-heading">Feedback</h2>
+            <div>
+    <form action="" id="image-viewer-feedback-form">
+        <fieldset id="initial-question"> <!--style="display: none;"-->
+            <p class="question">Has the image viewer helped in making an informed decision?</p>
+            <div class="button-wrapper">
+            	<button type="button" name="dissatisfied-no">No</button>
+            	<button type="button" name="dissatisfied-yes">Yes</button>
+            </div>
+        </fieldset>
+        <fieldset id="reasons-for-dissatisfaction" aria-expanded="true" style="display: block;">
+            <legend>Please let us know why you are dissatisfied</legend>
+            <div class="checkbox">
+                <label for="button1">Button 1: </label>
+				<input name="button" id="button1" type="radio" value="BUTTON1">
+
+				<label for="button2">Button 2:</label>
+				<input name="button" id="button2" type="radio" value="BUTTON2">
+
+				<label for="button3">Button 3: </label>
+				<input name="button" id="button3" type="radio" value="BUTTON3">
+
+				<label for="button4">Button 4:</label>
+				<input name="button" id="button4" type="radio" value="BUTTON4">
+
+				<label for="button5">Button 5:</label>
+				<input name="button" id="button5" type="radio" value="BUTTON5">
+
+				<div class="comment">
+					<label for="explore-comments">Please share any further comments below</label> <br>
+                
+                	<textarea maxlength="150" name="paragraph" rows="2" cols="50"></textarea>
+                	<p>Please do not include personal contact details.</p>
+				</div>
+
+				
+
+            </div> <br>
+            </div>
+            <!--div class="comment-box">
+                <label for="explore-comments">Please share any further comments below</label> <br>
+                
+                <textarea maxlength="150" name="paragraph" rows="2" cols="50"></textarea>
+                <p>Please do not include personal contact details.</p>
+            </div-->
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Cancel">
+        </fieldset>
+    </form>
+</div>
+        </div>
+    </div>
+</aside></div>
+</body>
+</html>
+
+
